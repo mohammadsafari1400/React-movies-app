@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
+body {
+  background-color: #553d67;
+
+  font-family: "Patrick Hand", cursive;
+}
+.header {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #242582;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo i {
+  font-size: 45px;
+}
+.header .form {
+  width: 25%;
+}
+.header .form .search-box {
+  width: 100%;
+  padding: 9px 5px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.644);
+  border: none;
+}
+.movies {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.movie {
+  width: 23%;
+  margin-top: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 7px;
+  background-color: #2f2fa2;
+}
+.movie img {
+  width: 100%;
+  height: 450px;
+  object-position: center;
+  object-fit: cover;
+}
+.movie .text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.movie .text h4 {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.726);
+}
+.movie .text a {
+  font-size: 17px;
+  color: red;
+}
+.single-post {
+  display: flex;
+  padding: 15px;
+}
+.single-post .pic {
+  width: 23%;
+}
+.single-post .info {
+  width: 77%;
+  margin-left: 15px;
+}
+.single-post .info li {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.726);
+}
+.single-post .info li span:nth-child(1) {
+  color: rgba(255, 255, 255, 0.459);
+  margin-right: 5px;
+}
+.single-post .pic img {
+  width: 100%;
+  height: 450px;
+}
+.error {
+  width: 100%;
+  margin-top: 90px;
+  text-align: center;
+  font-size: 30px;
+  color: rgba(255, 0, 0, 0.555);
+}
+.loding {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+  color: white;
+  font-size: 40px;
+}
